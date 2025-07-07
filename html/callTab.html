@@ -1,0 +1,88 @@
+<div class="container">
+  <h2>Call Logging</h2>
+  <div>
+    <label>Ticket Number</label>
+    <input type="text" id="ticketNumber" readonly class="readonly" />
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 30px;">
+    <div>
+      <label for="customerType">Customer Type</label>
+      <select id="customerType">
+        <option value="Distributor">Distributor</option>
+        <option value="Individual">Individual</option>
+      </select>
+    </div>
+    <div>
+      <label for="customerName">Name of Caller</label>
+      <input type="text" id="customerName" autocomplete="off" />
+    </div>
+    <div>
+      <label for="businessName">Business Name</label>
+      <input type="text" id="businessName" autocomplete="off" />
+    </div>
+    <div>
+      <label for="zipCode">Business Zip Code</label>
+      <input type="text" id="zipCode" autocomplete="off" />
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" autocomplete="off" />
+    </div>
+    <div>
+      <label for="phoneNumber">Phone Number</label>
+      <input type="tel" id="phoneNumber" autocomplete="off" />
+    </div>
+    <div>
+      <label for="modelNumber">Model Number</label>
+      <input type="text" id="modelNumber" autocomplete="off" />
+    </div>
+    <div>
+      <label for="serialNumber">Serial Number</label>
+      <input type="text" id="serialNumber" autocomplete="off" />
+    </div>
+    <div>
+      <label for="reason">Reason for Calling</label>
+      <textarea id="reason"></textarea>
+    </div>
+    <div>
+      <label for="troubleshootingSteps">Troubleshooting Process</label>
+      <textarea id="troubleshootingSteps"></textarea>
+      <select id="resolutionDropdown" style="margin-top:5px;"></select>
+      <button type="button" onclick="insertSelectedResolution()">📌 Insert Resolution</button>
+    </div>
+    <div>
+      <label for="callbackDate">Schedule Callback</label>
+      <input type="datetime-local" id="callbackDate" />
+    </div>
+    <div>
+      <label for="ticketStatus">Ticket Status</label>
+      <select id="ticketStatus">
+        <option value="Open">Open</option>
+        <option value="Pending">Pending</option>
+        <option value="Closed">Closed</option>
+      </select>
+    </div>
+    <div>
+      <label for="priority">Priority</label>
+      <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Normal" selected>Normal</option>
+        <option value="High">High</option>
+        <option value="Urgent">Urgent</option>
+      </select>
+    </div>
+    <div>
+      <label for="category">Category</label>
+      <input type="text" id="category" autocomplete="off" />
+    </div>
+    <div>
+      <label for="tags">Tags</label>
+      <input type="text" id="tags" autocomplete="off" placeholder="comma,separated,tags" />
+    </div>
+    <div>
+      <label for="internalNotes">Internal Notes</label>
+      <textarea id="internalNotes"></textarea>
+    </div>
+  </div>
+  <button type="button" id="saveTicketBtn">💾 Save Ticket</button>
+</div>
