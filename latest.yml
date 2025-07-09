@@ -1,8 +1,8 @@
-version: 2.0.7
+version: 2.0.8
 files:
-  - url: helpdesk-logger-modular-Setup-2.0.7.exe
-    sha512: y0jsAdRDF8/wym/4Ks/pMbnkUZbbYF52nHrKmjA4XzWiGYyXjFsHkCLCvdu8IStSReurvNrJOmk/f8IbaHvHcw==
-    size: 76347415
-path: helpdesk-logger-modular-Setup-2.0.7.exe
-sha512: y0jsAdRDF8/wym/4Ks/pMbnkUZbbYF52nHrKmjA4XzWiGYyXjFsHkCLCvdu8IStSReurvNrJOmk/f8IbaHvHcw==
-releaseDate: '2025-07-09T01:24:14.035Z'
+  - url: helpdesk-logger-modular-Setup-2.0.8.exe
+    sha512: jfMQ/Yba+tnaCQGhQrsO5k4GXmJzj7Rj8naSbDuWYTmnbdYsdD2u/TptoK8Ef5Q+JeFEMfACVqStkFsrQoUeOA==
+    size: 76347387
+path: helpdesk-logger-modular-Setup-2.0.8.exe
+sha512: jfMQ/Yba+tnaCQGhQrsO5k4GXmJzj7Rj8naSbDuWYTmnbdYsdD2u/TptoK8Ef5Q+JeFEMfACVqStkFsrQoUeOA==
+releaseDate: '2025-07-09T01:32:00.280Z'
